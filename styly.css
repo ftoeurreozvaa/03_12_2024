@@ -1,0 +1,40 @@
+p {
+    color:rgb(0, 179, 179);
+}
+h2 {
+    background-color:aqua;
+}
+.muj-odstavec{
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    text-align: center;
+}
+/*pokud je selektror třída (atribut u tahu je class="něco", musím před ten název napsat tečku - název jednoslovný bez diakritiky, mezer, můžu spojit slova - nebo _*/
+
+#nadpis {
+    text-align: right;
+    color:rgb(0, 143, 143);
+    background-color: aqua;
+    font-size: 25px;
+    font-style: italic;
+}
+/* selektor id použíji jedenkrát - např. jeden nadpis chci změnit, jen jeden obrázek chci mít takový a takový...*/
+
+#odstavecek {
+    color: rgb(13, 56, 56);
+    border: double rgb(0, 143, 143);    /*rámeček*/
+    background-color: azure;    
+    border-radius: 15px;    /*zaoblení*/
+    padding: 10px;  /*mezera mezi obsahem a rámečkem*/
+    font-style:italic;
+}
+
+#podtrzeni {
+    text-decoration: none;
+    color: blue;
+    font-style: italic;
+    border: double rgb(0, 143, 143);
+    background-color: azure;
+    padding: 4px;
+    border-radius: 15px;
+}
